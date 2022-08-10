@@ -680,7 +680,6 @@ body {
 .contact-form {
     display: flex;
     flex-direction: column;
-
 }
 
 .contact-form-description {
@@ -835,7 +834,6 @@ body {
 /*=============/BACKDROP=============*/
 
 /*=============FOOTER-CONTACT-FORM=============*/
-
 .footer-form-description {
     font-weight: 700;
     text-transform: uppercase;
