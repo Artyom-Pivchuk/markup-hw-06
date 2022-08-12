@@ -63,12 +63,15 @@ body {
     text-align: center;
 }
 /*==============HEADER==============*/
+.page-header {
+border-bottom: 1px solid #ececec;
+}
+
 .header-container {
     display: flex;
     min-height: 80px;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ececec;
 }
 
 .navigation {
@@ -213,7 +216,13 @@ body {
     letter-spacing: 0.06em;
     color: var(--title-color);
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.hero-modal-btn:hover {
+    background: #188CE8;
+}
+
 /*=============/HERO==============*/
 
 /*============PRIORITIES==========*/
@@ -814,7 +823,7 @@ body {
 .contact-form-btn {
     align-self: center;
     min-width: 200px;
-    background-color: #188CE8;
+    background-color:#2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 10px 55px;
@@ -826,6 +835,11 @@ body {
     line-height: 1.88;
     letter-spacing: 0.06em;
     border-width: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form-btn:hover {
+    background: #188CE8;
 }
 
 .contact-form-policy-link:focus {
@@ -874,6 +888,12 @@ body {
     color: #FFFFFF;
     border-width: 0;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+        
+       
+.footer-form-btn:hover {
+    background: #188CE8;
 }
 
 .footer-form-btn-wrapper {
